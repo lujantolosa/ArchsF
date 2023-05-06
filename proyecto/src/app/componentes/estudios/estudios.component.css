@@ -1,0 +1,48 @@
+ .contenedortit {
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-top: 8px solid #0fb138;
+  }
+
+ .tit2 {
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    /*margin-top: 15px;
+    margin-bottom: 30px;*/
+    font-size: 22px;
+  }
+
+  .contenedor{
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px;
+  } 
+
+  .contenedorbaj{
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px;
+    border-bottom: 8px solid rgb(15, 177, 56);
+  }
+
+  .subt {
+    font-size: 15px;
+    font-weight: 80px;
+  }
+
+  .recua {
+   margin: auto; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  /*margin-top: 15px;
+    margin-bottom: 30px;
+     */

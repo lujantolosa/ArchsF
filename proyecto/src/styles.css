@@ -1,0 +1,60 @@
+*{ margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif }
+  
+   html {
+      font-size: 10px;
+      background-color:rgb(255, 255, 255); }
+  
+    body {
+      width: 1270px;
+      margin: auto;
+      background-color: rgb(255, 255, 255);
+      padding: 0px 0px 0px 0px;}
+  
+   .barra {
+      position:absolute;
+      top: 30px; right: 65px;
+      color:  rgb(25, 100, 129);
+      font-size: 16px;
+      letter-spacing: 1px;
+      }
+  
+     .argp {
+      position: absolute;
+      top: 10px; left: 55px; 
+      background-color: rgb(25, 100, 129)
+      }
+  
+  .contenedor img{
+    float: left;
+    margin-right: 20px;
+  }
+  
+      /*línea text-shadow: 3px 3px 1px rgb(83, 82, 82);*/ 
+  
+  /*párrafo*/
+  
+   p {
+      color: black;
+      font-size: 12px;
+      letter-spacing: 0px;
+      font-family: Verdana;}
+  
+   * { font-family: arial }
+  
+   /*.bann {
+    width: 1250px;
+      height: 550px;
+      border: 1px solid rgb(18, 89, 196);
+    } */
+  
+   a:hover {
+    background-color : rgb(255, 255, 255)
+   }
+  
+   /* selector universal: *{...}  
+   selector de elementos: por ejemplo il{...} 
+   selector de clases: <class="nombre"> -> .nombre {...} 
+   selector de id: <id="nombre2" -> #nombre 2 {...} */
