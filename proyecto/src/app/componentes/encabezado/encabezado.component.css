@@ -64,4 +64,18 @@
     justify-items: center;
    }
 
+   .barra {
+    position:absolute;
+    top: 30px; 
+    /*right: auto ; */
+    color:  rgb(25, 100, 129);
+    font-size: 16px;
+    letter-spacing: 1px;
+    }
+
+   .argp {
+    position: absolute;
+    top: 10px; /* left: 55px; */
+    background-color: rgb(25, 100, 129)
+    }
 
