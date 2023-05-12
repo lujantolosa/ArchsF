@@ -1,0 +1,9 @@
+.contfoot{
+    border-top: 8px solid #0fb138;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

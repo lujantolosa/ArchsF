@@ -23,7 +23,7 @@
     border-bottom: 1px solid;
     font-size: 20px;
    }
-  
+     /*
    .controls {
     width: 100%;
     border: 1px solid #017bab;
@@ -32,7 +32,7 @@
     background: #252323;
     font-size: 14px;
     font-weight: bold;
-   }
+   }   */
   
    .buttons {
     width: 100%;
@@ -41,6 +41,9 @@
     border: none;
     color: white;
     margin-bottom: 16px;
+ 
+    
+ 
    }
   
    .form-login p{
@@ -59,23 +62,34 @@
     text-decoration: underline;
    }
 
-   .cont{
-    display: flex;
-    justify-items: center;
-   }
-
    .barra {
-    position:absolute;
     top: 30px; 
-    /*right: auto ; */
     color:  rgb(25, 100, 129);
-    font-size: 16px;
     letter-spacing: 1px;
+
+     /*    position: absolute;
+     right: auto ; 
+     */
     }
 
    .argp {
-    position: absolute;
-    top: 10px; /* left: 55px; */
-    background-color: rgb(25, 100, 129)
+    top: 20px; 
+    background-color: rgb(25, 100, 129);
+    
+    /*    position: absolute;
+    left: 55px; 
+    rgb(15, 177, 56)
+     chartreuse
+    */
     }
 
+  .encab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(110, 204, 17) ;*/
+   }
+
+   .fondoenc {
+    background-color: rgb(110, 204, 17)  ;
+   }

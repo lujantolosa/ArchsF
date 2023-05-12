@@ -10,6 +10,7 @@ import { SoftskillsComponent } from './componentes/softskills/softskills.compone
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     DescripcionComponent,
     EstudiosComponent,
     SoftskillsComponent,
-    FooterComponent
+    FooterComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
