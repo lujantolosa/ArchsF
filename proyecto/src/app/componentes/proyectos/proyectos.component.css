@@ -1,13 +1,9 @@
-.row{
-    padding: 20px;
-}
-
 .contenedorp{
     width: auto;
     text-align: justify;
 }
 
-.textproy, .imgdr{
+.textproy, .imgredd{
     display: inline-block;
     text-align: justify;
 }
@@ -15,11 +11,3 @@
 .lineaproy{
     background-color:  #dcedc8 ;
 }
-
-/* 
-.lineaproy{
-    border-top: 8px solid #0fb138;
-    border-bottom: 8px solid rgb(15, 177, 56); 
-    
-} 
-*/

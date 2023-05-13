@@ -7,3 +7,7 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
+.cont{
+    font-family: 'emoji';
+}

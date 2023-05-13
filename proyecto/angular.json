@@ -30,7 +30,7 @@
               "C:/Luján/proyecto/src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/styles.scss"
+              "src/styles.css"
             ], 
 
             "scripts": [
