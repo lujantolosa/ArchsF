@@ -1,42 +1,43 @@
 <br>
 <br>
 <br>
-<div class="estf">
+
 <div class="row">
-  <div class="recua">
-    <div class="col-xs-10 col-sm-8 col-md-6 col-ig-4">
-      <ul>
-        <h1 class="contenedortit"><u>Estudios</u></h1> <br>
-        <li *ngFor="let estudios of estudiosList">
-          <div class="contenedor">
-            <img [src]="estudios.img" width="54" height="52" />
-            <h2 class="subt">{{estudios.duracion}}</h2>
-            <p>{{estudios.carrera}}</p>
-            <p>{{estudios.instituto}}</p>
-            <br>
-            <br>
-          </div>
-        </li>
-      </ul>
+  <div class="estf">
+    <div class="recua">
+      <div class="col-xs-10 col-sm-8 col-md-6 col-lg-4">
+        <ul>
+          <h1 class="contenedortit"><u>Estudios</u></h1> <br>
+          <li *ngFor="let estudios of estudiosList">
+            <div class="contenedor">
+              <img [src]="estudios.img" width="54" height="52" />
+              <h2 class="subt">{{estudios.duracion}}</h2>
+              <p>{{estudios.carrera}}</p>
+              <p>{{estudios.instituto}}</p>
+              <br>
+              <br>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="recua">
+      <div class="col-xs-10 col-sm-8 col-md-6 col-lg-4">
+        <h1 class="tit2"><u>Cursos</u></h1> <br>
+        <ul>
+          <li *ngFor="let cursos of cursosList">
+            <div class="contenedor">
+              <img [src]="cursos.imgs" width="55" height="52" />
+              <h2 class="subt">{{cursos.tiempo}}</h2>
+              <p>{{cursos.curso}}</p>
+              <p>{{cursos.institucion}}</p>
+              <br> <br>
+            </div>
+          </li>
+          <h1 class="contenedorbaj"></h1>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="recua">
-    <div class="col-xs-10 col-sm-8 col-md-6 col-ig-4">
-      <h1 class="tit2"><u>Cursos</u></h1> <br>
-      <ul>
-        <li *ngFor="let cursos of cursosList">
-          <div class="contenedor">
-            <img [src]="cursos.imgs" width="55" height="52" />
-            <h2 class="subt">{{cursos.tiempo}}</h2>
-            <p>{{cursos.curso}}</p>
-            <p>{{cursos.institucion}}</p>
-            <br> <br>
-          </div>
-        </li>
-        <h1 class="contenedorbaj"></h1>
-      </ul>
-    </div>
-  </div>
-</div>
 </div>
 <br> <br> <br>
