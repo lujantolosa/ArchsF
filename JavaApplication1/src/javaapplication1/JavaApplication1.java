@@ -13,9 +13,7 @@ public class JavaApplication1 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        System.out.println("Luján is here");
-        // TODO code application logic here
+    public static void main(String[] args){
+        SpringApplication.run(Application.class, args);
     }
-    
 }
